@@ -150,9 +150,3 @@ ENHANCD_HOOK_AFTER_CD="ls -lh"
 
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
-# Google
-export OPENLY_DB_USER=cesar@openly.com
-
-# Openly variables
-export CORE_API_BASE_URL=http://0.0.0.0:8082
