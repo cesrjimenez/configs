@@ -1,0 +1,118 @@
+{
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask"
+    ],
+    "git.path": "/usr/bin",
+    "workbench.sideBar.location": "right",
+    "showMusicMetrics": true,
+    "showGitMetrics": false,
+    "showWeeklyRanking": false,
+    "gitProjectManager.baseProjectsFolders": [
+        "/Users/cesarjimenez/Sites/creator",
+        "/Users/cesarjimenez/Sites/shop",
+        "/Users/cesarjimenez/Sites/nby-shop",
+        "/Users/cesarjimenez/Sites/component-lib",
+        "/Users/cesarjimenez/Sites/momentum-lab/momentum",
+        "/Users/cesarjimenez/Sites/momentum-lab/trade-service",
+        "/Users/cesarjimenez/Sites/momentum-lab/user-service",
+        "/Users/cesarjimenez/Sites/momentum-lab/notes-service",
+        "/Users/cesarjimenez/Sites/momentum-lab/coming-soon-momentum",
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "gitProjectManager.ignoredFolders": ["node_modules"],
+    "gitProjectManager.maxDepthRecursion": 4,
+    "gitProjectManager.checkRemoteOrigin": false,
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.fontFamily": "Dank Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "explorer.autoReveal": false,
+    "breadcrumbs.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 1,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.defaultFormatter": "golang.go",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.enablePreview": false,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "html": "html",
+        "erb": "erb",
+        "javascript": "javascriptreact",
+        "vue": "html",
+        "ejs": "html"
+    },
+    "python.pythonPath": "/usr/bin/python3",
+    "jest.pathToJest": "yarn react-test",
+    "jest.autoEnable": false,
+    "workbench.tree.indent": 18,
+    "editor.minimap.enabled": false,
+    "debug.node.autoAttach": "on",
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+    "vsicons.dontShowNewVersionMessage": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+    "eslint.workingDirectories": [ "./frontend", "./backend" ],
+    "vsprettier.useEsLint": true,
+    "vsprettier.enable": false,
+    "eslint.lintTask.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "solidity.compileUsingRemoteVersion": "latest",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "go.inferGopath": false,
+    "go.buildOnSave": "workspace",
+    "go.lintOnSave": "file",
+    "go.vetOnSave": "package",
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [
+        // "--fast",
+        // "--exclude=don't use underscores in Go names; struct field [\\w.]+ should be [\\w.]+",
+        // "--disable errcheck" // I don't know how i feel about this.
+        "-f=stylish",
+    ],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatTool": "goimports",
+    "go.gocodeAutoBuild": false,
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+      "go-langserver": "gopls",
+    },
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "editor.renderWhitespace": "none",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.languageServer": "Microsoft",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "sync.gist": "0a315c9b64cf11dff0ba999fa2618364",
+}
